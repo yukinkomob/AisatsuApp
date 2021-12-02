@@ -34,11 +34,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun judgeAisatsu(hour: Int): String {
         return if (hour in 2..9) {
-            "おはよう"
+            "おはよう！"
         } else if (hour in 10..17) {
-            "こんにちは"
+            "こんにちは！"
         } else {
-            "こんばんは"
+            "こんばんは！"
         }
     }
 }
